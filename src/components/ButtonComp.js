@@ -4,13 +4,12 @@ import { Button } from "@material-ui/core";
 
 export default function ButtonComp(params) {
 
-    const [atributo, setAtributo] = useState(0)
-    let cont=1;
-
-    const increment= (e) =>{
+    const [atributo, setAtributo] = useState(0);
+  
+    const increment = (e) =>{
         e.preventDefault();
-        cont += 1;
-        setAtributo(cont);
+        
+        setAtributo(atributo +1);
     };
 
     return (
