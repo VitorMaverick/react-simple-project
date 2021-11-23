@@ -1,15 +1,16 @@
 
 import './App.css';
 import Appbar from "./components/Appbar";
-import ButtonComp from "./components/ButtonComp";
-import Student from "./components/Student";
+import Student from "./pages/Student";
+import RegisterStudent from "./pages/RegisterStudent";
 
 function App() {
   return (
   <div>
     <Appbar/>
-	<Student/>
-	<ButtonComp name = "contador"/>
+      <RegisterStudent/>
+	    <Student/>
+
   </div	>
   );
 }
